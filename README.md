@@ -1,4 +1,4 @@
-# M11-Employee-Tracker
+# M12-Employee-Tracker
 - # GIVEN a command-line application that accepts user input
 ## WHEN I start the application
 - THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
@@ -17,3 +17,6 @@
 ## WHEN I choose to update an employee role
 - THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 ## ![example of table Foreign key linking](/readme_pics/tablelinking.png)
+
+## video example
+-https://watch.screencastify.com/v/dCJiVZW1Z5omsSKnwdrl
