@@ -4,6 +4,7 @@ const cTable = require('console.table');
 const deptTable = require('./department');
 const inquirer = require('inquirer');
 const roleTable = require('./roles');
+const eTable = require('./employee');
 
 
 
@@ -42,6 +43,7 @@ inquirer.prompt(startQ)
 
       case "Employees":
         // Function to see employee list, add an employee,remove an employee, update employee info(manager, role)
+        eTable();
         break;
 
       case "Delete everything!":

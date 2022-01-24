@@ -78,8 +78,9 @@ function addRole() {
                 }
             }
 
-      db.query(`INSERT INTO role(title, salary, department_id) VAlUE (?, ?, ?)`, [response.title, response.salary, department_id])
-      if (err) throw err;
+      db.query(`INSERT INTO role(title, salary, department_id) VAlUE (?, ?, ?)`, [response.title, response.salary, response.department_id])
+      if (err){ throw err
+      }
       console.log("role was successfully added!")
       showRoles();
     })
